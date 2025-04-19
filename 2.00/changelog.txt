@@ -1,0 +1,5 @@
+# POAM Radio Telescop Data Analyzer Version 2.00
+
+changelog:
+1. improved frequency plotter
+2. added time series plot functionality
