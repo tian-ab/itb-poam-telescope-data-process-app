@@ -2,7 +2,7 @@
 block_cipher = None
 
 a = Analysis(
-    ['frequency_analyzer.py'],
+    ['poam-data-analyzer.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='FrequencyAnalyzer',
+    name='POAM Radio Telescope Data Analyzer',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
